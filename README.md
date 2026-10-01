@@ -1,4 +1,4 @@
-# Chat Voice
+# Eulexi
 
 Hold a key, talk, and your words land on the clipboard ready to paste into game chat. Built for people who want to keep up in MMO chat but type or spell slower than the conversation moves.
 
@@ -53,16 +53,16 @@ Then pick GPU or Auto under Settings. If the card doesn't work, the app falls ba
 ## Running
 
 ```
-python chat_voice.py
+python eulexi.py
 ```
 
 The first time you pick a model, it downloads. The small models are under 200 MB and the large one is about 1.6 GB.
 
-If your game runs as administrator, run Chat Voice as administrator too, or the hotkeys won't work while the game has focus.
+If your game runs as administrator, run Eulexi as administrator too, or the hotkeys won't work while the game has focus.
 
 ## Settings you can change in the code
 
-The top of `chat_voice.py` has the hotkeys (`HOTKEY`, `CYCLE_HOTKEY`) and the chat limit (`CHAT_LIMIT`).
+The top of `eulexi.py` has the hotkeys (`HOTKEY`, `CYCLE_HOTKEY`) and the chat limit (`CHAT_LIMIT`).
 
 ## Your data
 

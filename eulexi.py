@@ -1,4 +1,4 @@
-"""Chat Voice - hold a key, talk, and your words land on the clipboard ready for game chat."""
+"""Eulexi - hold a key, talk, and your words land on the clipboard ready for game chat."""
 import threading
 import queue
 import time
@@ -1103,7 +1103,7 @@ def poll_results():
 # ================= build the window =================
 ctk.set_appearance_mode("dark")
 root = ctk.CTk(fg_color=BG)
-root.title("Chat Voice")
+root.title("Eulexi")
 root.attributes("-topmost", True)
 root.geometry("960x360")
 root.minsize(780, 320)
