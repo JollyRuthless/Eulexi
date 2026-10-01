@@ -1,0 +1,11 @@
+# personal data the app creates
+chat_history/
+games/
+settings.json
+channels.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
